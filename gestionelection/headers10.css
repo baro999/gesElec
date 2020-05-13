@@ -1,0 +1,415 @@
+
+/*les plus grand ecrans*/
+@media screen and (min-width: 1365px){
+    body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+
+nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+    border-bottom: 2px solid black;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav >ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.menuSecondaire{
+    display: none;
+}
+nav >ul>li>a{
+    padding: 15px 10px;
+    font-size: 15px;
+}
+
+nav > ul >li >a:hover{
+
+    color: red;
+    
+}
+
+nav > ul >li{
+    float: left;
+    position: relative;
+    
+
+}
+nav li{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*ici je gere maintenant mon menu secondaire*/
+
+nav li:hover .menuSecondaire{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.menuSecondaire li a{
+    width: 180px;
+    padding: 15px 20px;
+    background-color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menuSecondaire li:hover a{
+    
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.boutonDeDeconnexion{
+    position: fixed;
+    z-index: 1000;
+    right: 30px;
+    top: 15px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.boutonDeDeconnexion:hover{
+    color:red;
+}
+.pilierDroit{
+    background-color:#ddd;
+    position: fixed;
+    width:180px;
+    height: 585px;
+    top:50px;
+}
+
+.listePilierDroit{
+    font-weight: bold;
+    font-size: 13px;
+    color:black;
+}
+.activité{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f00;
+}
+}
+
+
+/*les ecrans compris entrer 1364px et 1000px*/
+@media screen and (min-width: 1000px) and (max-width: 1364px){
+   body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+
+nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+    border-bottom: 2px solid black;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav >ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.menuSecondaire{
+    display: none;
+}
+nav >ul>li>a{
+    padding: 15px 10px;
+    font-size: 15px;
+}
+
+nav > ul >li >a:hover{
+
+    color: red;
+    
+}
+
+nav > ul >li{
+    float: left;
+    position: relative;
+    
+
+}
+nav li{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*ici je gere maintenant mon menu secondaire*/
+
+nav li:hover .menuSecondaire{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.menuSecondaire li a{
+    width: 180px;
+    padding: 15px 20px;
+    background-color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menuSecondaire li:hover a{
+    
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.boutonDeDeconnexion{
+    position: fixed;
+    z-index: 1000;
+    right: 30px;
+    top: 15px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.boutonDeDeconnexion:hover{
+    color:red;
+}
+.pilierDroit{
+    background-color:#ddd;
+    position: fixed;
+    width:180px;
+    height: 585px;
+    top:50px;
+}
+.listePilierDroit{
+    font-weight: bold;
+    font-size: 13px;
+    color:black;
+}
+.activité{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f00;
+}
+}
+
+
+
+
+/*ecran compris entrer 999 et 700*/
+@media screen and (min-width: 700px) and (max-width: 999px){
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#eee;
+}
+nav{
+    width: 250px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 800;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav >ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.menuSecondaire{
+    display: none;
+}
+nav >ul>li>a{
+    padding: 15px 6px;;
+}
+
+nav > ul >li >a:hover{
+
+    color: red;
+    
+}
+nav > ul >li{
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+nav li{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+/*ici je gere maintenant mon menu secondaire*/
+
+nav li:hover .menuSecondaire{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 248px;
+    padding: 0px;
+    z-index: 1000;
+}
+.menuSecondaire li a{
+    width: 270px;
+    padding: 15px 20px;
+    background-color:rgba(255,255,255,1);
+    
+}
+.menuSecondaire li:hover a{
+    
+    color: red;
+}
+.pilierDroit{
+    display: none;
+}
+.boutonDeDeconnexion{
+    z-index: 1000;
+    position: fixed;
+    left: 1px;
+    top:420px;
+    font-size: 30px;
+    border:1px solid black;
+    background-color:red;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.boutonDeDeconnexion:hover{
+    background-color: rgba(255,0,0,0.7);
+}
+}
+
+
+/*ecran compris entrer 699 et 200*/
+@media screen and (min-width: 200px) and (max-width: 699px){
+    body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+nav{
+    width: 100%;
+    background-color: #aaa;
+    position: absolute;
+    top: 0%;
+    z-index: 800;
+
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav >ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.menuSecondaire{
+    display: none;
+}
+nav >ul>li>a{
+    padding: 15px 6px;
+}
+
+nav > ul >li >a:hover{
+
+    color: red;
+    
+}
+nav > ul >li{
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+nav li{
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+/*ici je gere maintenant mon menu secondaire*/
+nav ul li, nav ul li a{
+    width: 100%;
+}
+nav ul li a, nav ul li:hover  a{
+    padding: 10px 0px;
+}
+nav li:hover .menuSecondaire{
+    display: block;
+    position: static;
+}
+.menuSecondaire li{
+    width: 100%;
+}
+.menuSecondaire li a{
+    width: 100%;
+    padding: 15px 10px;
+    background-color:#eee;
+    
+}
+.menuSecondaire li:hover a{
+    color:red;
+}
+.pilierDroit{
+    display: none;
+}
+.boutonDeDeconnexion{
+    z-index:1000;
+    position: absolute;
+    top:1px;
+    border:1px solid black;
+    background-color: red;
+    text-decoration: none;
+    color: black;
+}
+}

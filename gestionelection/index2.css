@@ -1,0 +1,86 @@
+
+/*ecran strictement superieur à 1549*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#ddd;
+    
+}
+form select{
+    font-size: 25px;
+    width: 250px;
+}
+.trDebut{
+    background-color:#ddd;
+    text-transform: uppercase;
+}
+table{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px auto;
+    background-color: white;
+    font-size: 20px;
+}
+form{
+    position: fixed;
+    top:180px;
+    left:250px;
+    width: 800px;
+    border: 3px solid black;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: white;
+}
+form label{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+}
+form input[type=text],form input[type=number],form input[type=date],form input[type=password]{
+    width: 750px;
+    height: 30px;
+    border-radius: 25px 20px;
+    font-size:25px;
+    background-color: #ddd;
+}
+form input[type=submit],form input[type=reset]{
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #ddd;
+}
+fieldset{
+    background-color: red;
+    text-align:center;
+}
+input[type=text],input[type=date]{
+    width: 250px;
+}
+    h1{
+               position: fixed;
+               width: 680px;
+               left: 320px;
+               border: 3px solid black;
+               text-align: center;
+               color: black;
+               background-color: red;
+           }
+        .paroleVotez{
+            border: 3px solid black;
+            width: 670px;
+            top: 480px;
+            position: fixed;
+            left: 320px;
+            height: 50px;
+            display: block;
+            font-size: 30px;
+            background-color: red;
+            font-weight: bold;
+        }
+
+
+
+

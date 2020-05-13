@@ -1,0 +1,244 @@
+
+/*ecran strictement superieur à 1549*/
+@media screen and (min-width: 1250px){
+        body{
+            margin:0px;
+            padding:0px;
+            background-image: url("drapeauCongo3.jpg");
+            background-size: 100%;
+        }
+        form{
+            position: absolute;
+            top: 150px;
+            left: 450px;
+            border: 10px solid black;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            background-color: white;
+        }
+        h1{
+            position: absolute;
+            width: 680px;
+            left: 320px;
+            border: 3px solid black;
+            text-align: center;
+            color: black;
+            background-color: white;
+        }
+        .paroleVotez{
+            border: 3px solid black;
+            width: 670px;
+            top: 480px;
+            position: absolute;
+            left: 320px;
+            height: 50px;
+            display: block;
+            font-size: 30px;
+            background-color: white;
+            font-weight: bold;
+        }
+        .imageGaucheHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageGaucheBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            left: 1px;
+            top: 400px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 400px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+}
+
+
+
+/*ecran compris entre 1100 pixel et 1249 pixels*/
+@media screen and (min-width: 1100px) and (max-width: 1249px){
+        body{
+            margin:0px;
+            padding:0px;
+            background-color: #99f;
+        }
+        form{
+            position: absolute;
+            top: 150px;
+            left: 350px;
+            border: 10px solid black;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            background-color: white;
+        }
+        h1{
+            position: absolute;
+            width: 480px;
+            left: 320px;
+            border: 3px solid black;
+            text-align: center;
+            color: black;
+            background-color: white;
+        }
+        .paroleVotez{
+            border: 3px solid black;
+            width: 480px;
+            top: 480px;
+            position: absolute;
+            left: 320px;
+            height: 50px;
+            display: block;
+            font-size: 30px;
+            background-color: white;
+            font-weight: bold;
+        }
+        .imageGaucheHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageGaucheBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            left: 1px;
+            top: 400px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 400px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+}
+
+
+/*ecran compris entre 900 pixel et 1249 pixels*/
+@media screen and (min-width: 900px) and (max-width: 1099px){
+        body{
+            margin:0px;
+            padding:0px;
+            background-color: #99f;
+        }
+        form{
+            position: absolute;
+            top: 150px;
+            left: 290px;
+            border: 10px solid black;
+            text-align: center;
+            font-size: 25px;
+            color: black;
+            background-color: white;
+        }
+        h1{
+            position: absolute;
+            width: 400px;
+            left: 240px;
+            border: 3px solid black;
+            text-align: center;
+            color: black;
+            background-color: white;
+        }
+        .paroleVotez{
+            border: 3px solid black;
+            width: 400px;
+            top: 480px;
+            position: absolute;
+            left: 240px;
+            height: 50px;
+            display: block;
+            font-size: 30px;
+            background-color: white;
+            font-weight: bold;
+        }
+        .imageGaucheHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageGaucheBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            left: 1px;
+            top: 400px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteHaut{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+        .imageDroiteBasse{
+            border: 1px solid black;
+            border-radius: 10px 15px;
+            position: absolute;
+            top: 400px;
+            right: 1px;
+            width: 220px;
+            height: 220px;
+            background-color: white;
+        }
+}
